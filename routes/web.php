@@ -6,7 +6,7 @@ use App\Http\Controllers\MusicController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
-use App\HTTP\Controllers\HomeController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WalletController;
 
 /*
