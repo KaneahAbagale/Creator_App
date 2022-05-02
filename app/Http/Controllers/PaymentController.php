@@ -76,6 +76,16 @@ class PaymentController extends Controller
             'reference' => $reference,
         ]);
 
+        if (Auth::user()->wallet) {
+            Auth::user()->wallet()->update([
+                'amount' => $amount + Auth::user()->wallet->amount
+            ]);
+        } else {
+            Auth::user()->wallet()->create([
+                'amount' => $amount
+            ]);
+        }
+
         //return redirect()->back(('payments.index'));
         return view('dashboard');
         
