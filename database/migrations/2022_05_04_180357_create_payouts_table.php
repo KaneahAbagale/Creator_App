@@ -15,6 +15,11 @@ class CreatePayoutsTable extends Migration
     {
         Schema::create('payouts', function (Blueprint $table) {
             $table->id();
+            $table->string('email')->unique();
+            $table->decimal('amount');
+            $table->integer('account_number');
+            $table->unsignedBigInteger('user_id')->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }
