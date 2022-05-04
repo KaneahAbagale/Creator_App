@@ -86,8 +86,8 @@ class PaymentController extends Controller
     ]);
 }
 
-        return redirect()->back(('payments.index'));
-        //return view('dashboard');
+        //return redirect()->back(('payments.index'));
+        return view('dashboard');
         
     }
 
