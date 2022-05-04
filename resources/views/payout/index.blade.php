@@ -2,7 +2,7 @@
 
 </x-app-layout>
     <div>
-        <form id="paymentForm">
+        <form id="payoutForm" action="{{ route('content.index') }}" method="POST">
                 <div class="form-group">
                     <label for="email">Email Address</label>
                     <input type="email" id="email-address" required />
