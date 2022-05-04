@@ -20,8 +20,8 @@
                 <label for="last-name">Last Name</label>
                 <input type="text" id="last-name" />
                 </div>
-                <div class="form-submit">
-                <button type="submit" onclick="payWithPaystack()"> Pay </button>
+                {{-- <div class="form-submit"> --}}
+                {{-- <button type="submit" onclick="payWithPaystack()"> Pay </button> --}}
             </div>
         </form>
     </div>
