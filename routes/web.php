@@ -27,7 +27,7 @@ Route::get('/', function () {
 Route::get('/wallet', [WalletController::class, 'show'])->name('wallet');
 //Route::get('/wallet', [App\Http\Controllers\WalletController::class, "wallet"])->name('wallet');
 
-Route::get('/payout', [PayoutController::class, 'show'])->name('payout');
+Route::get('/payout', [PayoutController::class, 'index'])->name('payout');
 
 
 Route::middleware([

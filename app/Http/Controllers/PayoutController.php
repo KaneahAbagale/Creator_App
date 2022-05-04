@@ -15,7 +15,7 @@ class PayoutController extends Controller
      */
     public function index()
     {
-        return view('payout');
+        return view('payout.index');
     }
 
     /**
@@ -47,7 +47,7 @@ class PayoutController extends Controller
      */
     public function show(Payout $payout)
     {
-        return view('payout');
+        return view('payout.index');
     }
 
     /**
