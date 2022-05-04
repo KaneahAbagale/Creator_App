@@ -2,7 +2,6 @@
 
 </x-app-layout>
     <div>
- 
         <form id="paymentForm">
             <div class="form-group">
                 <label for="email">Email Address</label>
