@@ -14,10 +14,10 @@
           <h1 class="title-font text-lg font-medium text-gray-600 mb-3"></h1>
           <p class="leading-relaxed mb-3">Balance</p> 
           {{Auth::user()->wallet ? Auth::user()->wallet->amount : 0}}
-          <div class="flex items-center flex-wrap ">
-            <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a>
-          </div>
       </div>
+      </div>
+      <div class="flex items-center flex-wrap ">
+        <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a>
       </div>
     </div>
   </div>   
