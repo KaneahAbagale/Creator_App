@@ -57,6 +57,7 @@
         }
         </style>
 
+        <form>
             <div class="min-w-screen min-h-screen bg-gray-50 py-5" method="POST"  accept-charset="UTF-8" class="form-horizontal" role="form">
                 <div class="px-5">
                     <div class="mb-2">
@@ -155,6 +156,8 @@
                     </div>
                 </div>
             </div>
+        </form>
+            
     </div>
 
 </x-app-layout>
