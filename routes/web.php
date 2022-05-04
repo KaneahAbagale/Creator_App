@@ -47,6 +47,7 @@ Route::middleware([
             'content' => ContentController::class,
             //'wallet' => WalletController::class,
             'payment' => PaymentController::class,
+            'payout' => PayoutController::class,
 
         ]);
 
