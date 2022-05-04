@@ -141,30 +141,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="block text-sm font-medium text-gray-700" style="display:none" id="ctypediv2">
-                                                    <label class="text-gray-600 font-semibold text-sm mb-2 ml-1"></label>
-                                                    <div class="col-span-3 sm:col-span-2">
-                                                        <label for="name" value="{{ __('Content type') }}" class="block text-sm font-medium text-gray-700">Card Number</label>
-                                                        <div class="mt-1 flex rounded-md shadow-sm">
-                                                            <input type="text" name="ctype" id="ctype" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="000 000 000 000" type="email"> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="block text-sm font-medium text-gray-700" style="display:none" id="ctypediv3">
-                                                    <label class="text-gray-600 font-semibold text-sm mb-2 ml-1"></label>
-                                                    <div class="col-span-3 sm:col-span-2">
-                                                        <label for="name" value="{{ __('Content type') }}" class="block text-sm font-medium text-gray-700"> </label>
-                                                        <div class="mt-1 flex rounded-md shadow-sm">
-                                                            <input type="text" name="ctype" id="ctype" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="w-full p-3">
-                                                    <button class="btn btn-success btn-lg btn-block" type="submit" value="Pay Now!">
-                                                        <i class="fa fa-plus-circle fa-lg"></i> Pay Now! <a href=""></a>
-                                                    </button>
+                                               
                                                     <!--<div>
                                                         <button class= "btn btn-success btn-lg btn-block block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-2 font-semibold" type="submit"><i class="fa fa-plus-circle fa-lg"></i> PAY NOW</button>
                                                     </div> -->
