@@ -3,7 +3,7 @@
     <div class="p-2">
       <div class="flex items-center flex-wrap ">
         
-        <a href="content/create">Wallet</a>
+        <a href="/payout.index">Wallet</a>
       </div>
     </div>
    
