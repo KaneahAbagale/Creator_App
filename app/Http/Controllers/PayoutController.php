@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Payout;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redirect;
+
 
 class PayoutController extends Controller
 {

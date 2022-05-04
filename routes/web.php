@@ -8,6 +8,7 @@ use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WalletController;
+use App\Http\Controllers\PayoutController;
 
 /*
 |--------------------------------------------------------------------------
