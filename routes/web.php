@@ -27,6 +27,8 @@ Route::get('/', function () {
 Route::get('/wallet', [WalletController::class, 'show'])->name('wallet');
 //Route::get('/wallet', [App\Http\Controllers\WalletController::class, "wallet"])->name('wallet');
 
+Route::get('/payout', [PayoutController::class, 'show'])->name('payout');
+
 
 Route::middleware([
     'auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
@@ -47,7 +49,7 @@ Route::middleware([
             'content' => ContentController::class,
             //'wallet' => WalletController::class,
             'payment' => PaymentController::class,
-            'payout' => PayoutController::class,
+            //'payout' => PayoutController::class,
 
         ]);
 
