@@ -33,19 +33,19 @@
                     </div>
                 </div> 
 
-                
-                <div class="col-span-3 sm:col-span-2">
-                    <label for="name" value="{{ __('payout.index') }}" class="block text-sm font-medium text-gray-700"> Cost </label>
-                    <div class="mt-1 flex rounded-md shadow-sm">
-                        <select name="cost" id="cost1" onchange="makePayout()" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md">
-                            <option value="">Select</option>
-                            <option value="0">Bank Transfer</option>
-                            <option value="1">Mobile Money</option>
-                        </select>            
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="col-span-3 sm:col-span-2">
+                        <label for="name" value="{{ __('payout.index') }}" class="block text-sm font-medium text-gray-700"> Payout Platform</label>
+                        <div class="mt-1 flex rounded-md shadow-sm">
+                            <select name="platform" id="payout type" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md">
+                                <option value="">Select</option>
+                                <option value="0">Bank Transfer</option>
+                                <option value="1">Mobile Money</option>
+                            </select>            
+                        </div>
                     </div>
                 </div>
                 
-                    
                 <div class="grid grid-cols-3 gap-6">
                     <div class="col-span-3 sm:col-span-2">
                         <label for="name" class="block text-sm font-medium text-gray-700">Title</label>
