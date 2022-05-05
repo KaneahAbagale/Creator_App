@@ -16,7 +16,14 @@
                   <h1 class="title-font text-lg font-medium text-gray-600 mb-3">{{$content->title}}</h1>
                   <p class="leading-relaxed mb-3">{{$content->price ?? 'free'}}</p>
                   <div class="flex items-center flex-wrap ">
-                    <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>
+                    @if ($content->price = 0.00))
+                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                            <a href="{{ route(‘/download’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                        @else
+                            <a href="{{ route(‘/payment.index/{{$content->id}}’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                    </div>
+                    @endif
+                    {{-- <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a> --}}
                   </div>
                 </div>
               </div>
