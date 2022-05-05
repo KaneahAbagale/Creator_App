@@ -54,6 +54,7 @@
                     handler.openIframe();
                     }
                 </script>
+            </body>
         </html>
     </div>
 </x-app-layout>
