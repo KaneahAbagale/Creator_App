@@ -5,7 +5,7 @@
     
               <!-- component -->
     <section>
-      
+
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
           @foreach($music as $content)
@@ -18,9 +18,9 @@
                   <div class="flex items-center flex-wrap ">
                     @if ($content->price = 0.00))
                     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                            <a href="{{ route(‘/download’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                            <a href="{{ route(‘/download’) }}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>
                         @else
-                            <a href="{{ route(‘/payment.index/{{$content->id}}’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                            <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>
                     </div>
                     @endif
                     {{-- <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a> --}}
