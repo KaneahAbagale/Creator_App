@@ -19,8 +19,10 @@
                     <input value="{{$content->price ?? 0.00}}" type="text" id="amount" disabled />
                     </div>
                     
-                    <div class="form-submit">
-                    <button type="submit" onclick="payWithPaystack(event)"> Pay </button>
+                    <div>
+                        <div class="form-submit">
+                            <button type="submit" onclick="payWithPaystack(event)"> Pay </button>
+                        </div>
                     </div>
                 </form>
                 <script src="https://js.paystack.co/v1/inline.js"></script> 
