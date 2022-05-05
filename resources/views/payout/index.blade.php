@@ -55,10 +55,14 @@
                     </div>
                 </div> 
 
-                <div class="form-group">
-                    <label for="amount">Amount</label>
-                    <input value="" type="text" id="amount" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" disabled />
-                  </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="col-span-3 sm:col-span-2">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Amount</label>
+                        <div class="mt-1 flex rounded-md shadow-sm">
+                            <input name="Amount" id="contenttype" type="text" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="GHC 1000">           
+                        </div>
+                    </div>
+                </div> 
              
             </form>
     </html>
