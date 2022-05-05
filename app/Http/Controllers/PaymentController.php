@@ -87,7 +87,7 @@ class PaymentController extends Controller
 }
 
         //return redirect()->back(('dashboard'));
-       return view('dashboard');
+       return view('download');
         
     }
 

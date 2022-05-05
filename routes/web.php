@@ -5,6 +5,7 @@ use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\MusicController;
 use App\Http\Controllers\ContentController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WalletController;
@@ -30,6 +31,7 @@ Route::get('/wallet', [WalletController::class, 'show'])->name('wallet');
 
 Route::get('/payout.index', [PayoutController::class, 'index']);
 
+Route::get('/download', [DownloadController::class, 'index']);
 
 Route::middleware([
     'auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
