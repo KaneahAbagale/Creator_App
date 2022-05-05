@@ -19,7 +19,7 @@
                     @if ($content->price = 0.00))
                       <a href="{{ route(‘/download’) }}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>
                       @else
-                      <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>
+                      <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg"></a>
                     @endif
                     {{-- <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a> --}}
                   </div>
