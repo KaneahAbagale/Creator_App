@@ -21,7 +21,7 @@
                     
                     <div>
                         <div class="form-submit">
-                            <button type="submit" onclick="payWithPaystack(event)"> Pay </button>
+                            <button type="submit" onclick="payWithPaystack(event)" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg"> Pay </button>
                         </div>
                     </div>
                 </form>
