@@ -9,6 +9,13 @@
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
           @foreach($music as $content)
+            @if ($content->price = 0.00))
+              <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                      <a href="{{ route(‘/free.index’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                  @else
+                      <a href="{{ route(‘/payment.index’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+              </div>
+            @endif
             <div class="p-4 md:w-1/3">
               <div class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="blog">
