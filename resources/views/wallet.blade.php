@@ -18,7 +18,7 @@
     </div>
     <div class="flex items-center flex-wrap ">
       <!-- <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> -->
-      <a href="content/create" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> 
+      <a href="{{ route('payout.index') }}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> 
      </div>
   </div>   
 </x-app-layout>
