@@ -11,7 +11,7 @@
           @foreach($music as $content)
             @if ($content->price = 0.00))
               <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                      <a href="{{ route(‘/download.index’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
+                      <a href="{{ route(‘/download’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
                   @else
                       <a href="{{ route(‘/payment.index’) }}" class="text-sm text-gray-700 dark:text-gray-500"></a>
               </div>
