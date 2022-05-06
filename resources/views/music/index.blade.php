@@ -16,11 +16,12 @@
                   <h1 class="title-font text-lg font-medium text-gray-600 mb-3">{{$content->title}}</h1>
                   <p class="leading-relaxed mb-3">{{$content->price ?? 'free'}}</p>
                   <div class="flex items-center flex-wrap ">
-                    @if ($content->price = 0)
+                    <?php if ($content->price = 0) {
                       echo "<a href="/download" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>"
-                      @else
+                    } else {
                       echo "<a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a>"
-                    @endif
+                    }
+                     ?>
                     {{-- <a href="payment.index/{{$content->id}}" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Download</a> --}}
                   </div>
                 </div>
