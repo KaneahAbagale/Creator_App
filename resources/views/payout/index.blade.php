@@ -49,9 +49,9 @@
                     
                     <div class="grid grid-cols-3 gap-6">
                         <div class="col-span-3 sm:col-span-2">
-                            <label for="name" class="block text-sm font-medium text-gray-700">Title</label>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Account/Mobile Money Number</label>
                             <div class="mt-1 flex rounded-md shadow-sm">
-                                <input name="title" id="contenttype" type="text" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="Art/Music title">           
+                                <input name="title" id="contenttype" type="text" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="2345 5678 1234/050 200 3456">           
                             </div>
                         </div>
                     </div> 
