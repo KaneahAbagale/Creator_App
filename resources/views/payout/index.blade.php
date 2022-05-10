@@ -68,11 +68,11 @@
                                 <input name="Amount" id="contenttype" type="text" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="GHC 1000">           
                             </div>
                         </div>
-                        <div class="p-4 flex items-center flex-wrap ">
-                            <!-- <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> -->
-                            <a href="{{ route('wallet') }}" :active="request()->routeIs('wallet')"class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">{{ __('Payout') }}</a> 
-                        </div>
                     </div> 
+                    <div class="p-14 flex items-center flex-wrap ">
+                        <!-- <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> -->
+                        <a href="{{ route('wallet') }}" :active="request()->routeIs('wallet')"class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">{{ __('Payout') }}</a> 
+                    </div>
                 </form>
         </html>
     </div>
