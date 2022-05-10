@@ -71,10 +71,10 @@
                     </div> 
                 </form>
         </html>
-    </div>
-    <div class="p-24 flex items-center flex-wrap ">
-        <!-- <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> -->
-        <a href="{{ route('payout.index') }}" :active="request()->routeIs('payout.index')"class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">{{ __('Payout') }}</a> 
+        <div class="p-24 flex items-center flex-wrap ">
+            <!-- <a href="wallet" class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">Payout</a> -->
+            <a href="{{ route('payout.index') }}" :active="request()->routeIs('payout.index')"class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">{{ __('Payout') }}</a> 
+        </div>
     </div>
 </x-app-layout>   
     
