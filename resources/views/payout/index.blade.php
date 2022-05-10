@@ -1,10 +1,10 @@
 <x-app-layout>
-    <div class="p-24">
-        <div class="p-2">
-            <div class="flex items-center flex-wrap ">
-              <a href="content/create">Wallet</a>
-            </div>
+    <div class="p-2">
+        <div class="flex items-center flex-wrap ">
+          <a href="content/create">Wallet</a>
         </div>
+    </div>
+    <div class="p-24">
         <!DOCTYPE html>
         <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
             <head>
