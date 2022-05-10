@@ -1,11 +1,13 @@
 <x-app-layout>
-
+  <div class="p-2">
+    <div class="flex items-center flex-wrap ">
+      <a href="content/create">Music</a>
+    </div>
+  </div>
   <div class="text-gray-600 body-font">
-    
-    
+ 
               <!-- component -->
     <section>
-      
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
           @foreach($music as $content)
@@ -75,7 +77,6 @@
           </nav>
         </div>
       </div>
-</div>
-
+    </div>
   </div> 
 </x-app-layout>

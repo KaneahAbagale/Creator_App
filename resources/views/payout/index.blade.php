@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="p-2">
         <div class="flex items-center flex-wrap ">
-          <a href="content/create">Wallet</a>
+          <a href="content/create">Payout</a>
         </div>
     </div>
     <div class="p-24">
