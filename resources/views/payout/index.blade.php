@@ -71,8 +71,7 @@
                     </div> 
                     <div class="grid grid-cols-3 gap-6">
                         <div class="col-span-3 sm:col-span-2">
-                            <label for="name" class="block text-sm font-medium text-gray-700"></label>
-                            <div class="mt-1 flex">
+                            <div class="mt-3 flex">
                                 <a href="{{ route('wallet') }}" :active="request()->routeIs('wallet')"class="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">{{ __('Payout') }}</a>           
                             </div>
                         </div>
